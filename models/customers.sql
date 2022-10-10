@@ -1,5 +1,5 @@
-waitfor delay '00:30:00';
-go
+(waitfor delay '00:30:00';
+go)
 with customers as (
 
     select * from {{ ref('stg_customers') }}
